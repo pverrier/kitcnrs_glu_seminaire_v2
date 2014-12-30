@@ -1,0 +1,18 @@
+<plugin>
+  <nom><multi>[fr]Kit CNRS -glu- Séminaire LATP[en]CNRS template -glue- LATP seminar</multi></nom>
+  <auteur>[Amaury Adon->http://contrib.spip.net/Amaury-Adon], [Pascal Verrier->http://contrib.spip.net/pverrier] (CNRS Direction de la Communication)</auteur>
+  <version>0.1.0</version>
+  <etat>stable</etat>
+  <description>
+    <multi>
+      [fr]Plugin de liaison, permet au plugin [Séminaire LATP->http://contrib.spip.net/Seminaire-LATP] d'afficher son contenu au sein de l'habillage du [Kit labos CNRS->http://www.harmoweb.cnrs.fr/spip.php?article173].
+      [en]Glue code, allows [LATP seminar->http://contrib.spip.net/Seminaire-LATP] plugin to display content inside the [CNRS template->http://www.harmoweb.cnrs.fr/spip.php?article173] skin.
+    </multi>
+  </description>
+  <lien>http://www.harmoweb.cnrs.fr/spip.php?article261</lien>
+  <icon>images/icone-plugin.png</icon>
+  <prefix>kitcnrs_glu_seminaire</prefix>
+  <necessite id="SPIP" version="[2.1.0;2.1.99]" />
+  <necessite id="kitcnrs" version="[5.2.15;5.2.99]" />
+  <necessite id="seminaire" version="[1.5.9;1.5.99]" />
+</plugin>
